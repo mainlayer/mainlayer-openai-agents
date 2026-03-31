@@ -85,8 +85,8 @@ class TestMainlayerClientInit:
     def test_custom_base_url(self) -> None:
         from mainlayer_openai_agents._client import MainlayerClient
 
-        client = MainlayerClient(base_url="https://staging.mainlayer.xyz/")
-        assert client._base_url == "https://staging.mainlayer.xyz"
+        client = MainlayerClient(base_url="https://staging.mainlayer.fr/")
+        assert client._base_url == "https://staging.mainlayer.fr"
 
 
 class TestMainlayerClientHTTP:

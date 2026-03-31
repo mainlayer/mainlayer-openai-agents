@@ -2,7 +2,7 @@
 Internal HTTP client for the Mainlayer API.
 
 All requests are authenticated with a Bearer token and directed at
-https://api.mainlayer.xyz. This module is intentionally private; callers
+https://api.mainlayer.fr. This module is intentionally private; callers
 should use the public function tools in tools.py instead.
 """
 
@@ -14,7 +14,7 @@ from typing import Any
 import requests
 from requests import Response, Session
 
-BASE_URL = "https://api.mainlayer.xyz"
+BASE_URL = "https://api.mainlayer.fr"
 DEFAULT_TIMEOUT = 30  # seconds
 
 

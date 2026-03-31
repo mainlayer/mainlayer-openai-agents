@@ -1,6 +1,6 @@
 # mainlayer-openai-agents
 
-OpenAI Agents SDK integration for [Mainlayer](https://mainlayer.xyz) — payment infrastructure for AI agents.
+OpenAI Agents SDK integration for [Mainlayer](https://mainlayer.fr) — payment infrastructure for AI agents.
 
 Mainlayer is the easiest way to add monetisation to any API or agent workflow. This package wraps the Mainlayer REST API as `@function_tool`-decorated tools and ships two ready-to-use agent factories so you can go from zero to a paid API in minutes.
 
@@ -226,7 +226,7 @@ MIT — see [LICENSE](LICENSE).
 
 ## Links
 
-- [Mainlayer website](https://mainlayer.xyz)
-- [API documentation](https://docs.mainlayer.xyz)
+- [Mainlayer website](https://mainlayer.fr)
+- [API documentation](https://docs.mainlayer.fr)
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python)
 - [Issue tracker](https://github.com/mainlayer/mainlayer-openai-agents/issues)

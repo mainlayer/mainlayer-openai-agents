@@ -9,7 +9,7 @@ description = "OpenAI Agents SDK tools for Mainlayer — payment infrastructure 
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"
-authors = [{ name = "Mainlayer", email = "support@mainlayer.xyz" }]
+authors = [{ name = "Mainlayer", email = "support@mainlayer.fr" }]
 keywords = ["mainlayer", "payments", "openai", "agents", "ai", "monetization"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -37,9 +37,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://mainlayer.xyz"
+Homepage = "https://mainlayer.fr"
 Repository = "https://github.com/mainlayer/mainlayer-openai-agents"
-Documentation = "https://docs.mainlayer.xyz/integrations/openai-agents"
+Documentation = "https://docs.mainlayer.fr/integrations/openai-agents"
 "Bug Tracker" = "https://github.com/mainlayer/mainlayer-openai-agents/issues"
 
 [tool.setuptools.packages.find]
