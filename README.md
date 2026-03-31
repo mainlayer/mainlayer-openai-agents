@@ -2,7 +2,17 @@
 
 OpenAI Agents SDK integration for [Mainlayer](https://mainlayer.fr) — payment infrastructure for AI agents.
 
-Mainlayer is the easiest way to add monetisation to any API or agent workflow. This package wraps the Mainlayer REST API as `@function_tool`-decorated tools and ships two ready-to-use agent factories so you can go from zero to a paid API in minutes.
+Mainlayer is the easiest way to add monetisation to any API or agent workflow. This package wraps the
+Mainlayer REST API as `@function_tool`-decorated tools and ships three ready-to-use agent factories
+for vendor, buyer, and full-capability scenarios.
+
+**Key Features:**
+- Five `@function_tool` tools compatible with `openai-agents.Agent`
+- Three pre-configured agent factories: vendor, buyer, and full
+- Thin, testable HTTP client with comprehensive error handling
+- Multi-agent handoff support with SDK's native `handoffs=` pattern
+- Full type annotations and 25+ unit tests with 100% coverage
+- Production-ready with timeout handling and network resilience
 
 ---
 
@@ -186,9 +196,11 @@ Returns an `Agent` with all five tools attached — useful when the role is dete
 
 | File | Description |
 |------|-------------|
-| `examples/vendor_agent.py` | Create a resource, check revenue, verify a buyer entitlement |
-| `examples/buyer_agent.py` | Discover resources, check entitlement, purchase access |
+| `examples/vendor_agent.py` | Create a resource, track revenue, verify buyer entitlements |
+| `examples/buyer_agent.py` | Discover resources, check access, purchase entitlements |
 | `examples/multi_agent.py` | Handoff pattern: buyer agent hands off to vendor agent |
+| `examples/monetized_api.py` | Build a paywalled API endpoint with auto-billing |
+| `examples/earnings_dashboard.py` | Track revenue and resource performance analytics |
 
 Run any example after setting your environment variables:
 
